@@ -1,0 +1,1849 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+/*                                      THIS IS HEADER CSS                              */
+
+.olx-logo1 {
+    width: 34px;
+    height: 20px;
+    fill: #002f34;
+
+}
+
+.car-icon {
+    font-size: 15px;
+}
+
+.olx-logo1-link {
+    text-decoration: none;
+
+}
+
+.olx-logo1:hover {
+    fill: #3a77ff;
+}
+
+.car-icon-link {
+    text-decoration: none;
+    color: #3a77ff;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.property-icon-link{
+    text-decoration: none;
+    color: #080909;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.property-icon-link:hover {
+    color: #3a77ff;
+}
+
+.car-icon-div {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 8px -2px #cfcfcf54 inset;
+}
+
+.car-icon-h {
+    font-size: 12px;
+}
+
+.header-div1 {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-main1-div {
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.main2-div1 {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-main2-div {
+    padding: 13px 0px;
+    background-color: #f7f8f9;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.olx-logo2-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.olx-logo2 {
+    height: 48px;
+    width: 50px;
+    fill: #002f34;
+
+}
+
+.olx-logo2-heading {
+    font-size: 19px;
+    font-weight: 700;
+    color: #002f34;
+}
+
+.link-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+}
+
+.main2-div1-links {
+    text-decoration: none;
+    font-size: 16px;
+    color: #2c5357;
+    margin-right: 32px;
+}
+
+.used-cars-aerow-icon {
+    font-size: 12px;
+    margin-left: 5px;
+    transition: all .4s ease-in-out;
+}
+
+.used-cars-link:hover {
+    color: #002f34;
+    font-weight: 550;
+    margin-right: 28px;
+    border-bottom: 3px solid #3a77ff;
+
+}
+
+.used-cars-link {
+    margin-right: 32px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.used-cars-link:hover .used-cars-aerow-icon {
+    rotate: 180deg;
+    transition: all .4s ease-in-out;
+}
+
+/*                                                THIS IS USED CARS DROPDOWN                                 */
+
+.used-car-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.used-car-dropdown-data {
+    width: 240px;
+    background-color: white;
+    padding: 24px 0px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    position: absolute;
+    display: none;
+}
+
+.used-car-dropdown-links {
+    text-decoration: none;
+    display: block;
+    color: #002f34;
+    padding: 10px 20px;
+}
+
+.used-car-dropdown-links:hover {
+    background-color: #c8f8f6;
+}
+
+.used-car-dropdown:has(.used-car-dropdown-data:hover) .used-cars-link {
+    color: #002f34;
+    font-weight: 550;
+    margin-right: 28px;
+    border-bottom: 3px solid #3a77ff;
+}
+
+.used-car-dropdown:has(.used-car-dropdown-data:hover) .used-cars-aerow-icon {
+    rotate: 180deg;
+    transition: all .4s ease-in-out;
+}
+
+.used-car-dropdown:hover .used-car-dropdown-data {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+/*                                                THIS IS MORE DROPDOWN CSS                                    */
+
+.more-link {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.more-link:hover {
+    color: #002f34;
+    font-weight: 550;
+    border-bottom: 3px solid #3a77ff;
+}
+
+.more-link:hover .used-cars-aerow-icon {
+    rotate: 180deg;
+    transition: all .4s ease-in-out;
+}
+
+.more-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.more-dropdown-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #002f34;
+    margin-bottom: 20px
+}
+
+.more-dropdown-menu {
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    padding: 32px;
+    position: absolute;
+    right: -400px;
+    display: none;
+}
+
+.more-dropdown:hover .more-dropdown-menu {
+    display: block;
+}
+
+.more-dropdown:has(.more-dropdown-menu:hover) .more-link {
+    color: #002f34;
+    font-weight: 550;
+    border-bottom: 3px solid #3a77ff;
+}
+
+.more-dropdown:has(.more-dropdown-menu:hover) .used-cars-aerow-icon {
+    rotate: 180deg;
+    transition: all .4s ease-in-out;
+}
+
+.car-inspection {
+    width: 320px;
+    text-decoration: none;
+    color: #002f34;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.car-inspection-heading {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.car-inspection-para {
+    font-size: 16px;
+    color: #5c7a7d;
+}
+
+.more-dropdown-card {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.more-dropdown-card2 {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 40px;
+}
+
+.user-img-div {
+    width: 35px;
+    height: 35px;
+}
+
+.user-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.link-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-down-aerow {
+    font-size: 18px;
+    color: #002f34;
+}
+
+.sell-link {
+    text-decoration: none;
+    position: relative;
+    margin-left: 12px;
+}
+
+.sell-text {
+    width: 104px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #002f34;
+}
+
+.plus {
+    font-size: 16px;
+}
+
+.main2-div2 {
+    display: flex;
+    align-items: center;
+}
+
+/*                                            THIS IS USER DROPDOWN CSS                                         */
+
+.user-dropdown-data {
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    display: none;
+    transition: all .5 ease-in-out;
+}
+
+.user-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.user-dropdown:hover .user-dropdown-data {
+    display: block;
+    transition: all .5 ease-in-out;
+}
+
+.user-dropdown-data-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #002f34;
+}
+
+.user-dropdown-btn1 {
+    width: 125px;
+    height: 40px;
+    background-color: #dfe3e8;
+    border-radius: 5px;
+    color: #002f34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-dropdown-btn1:hover {
+    background-color: #ced0d4;
+}
+
+.user-dropdown-btn2 {
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+    color: white;
+    background-color: #477ae7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-dropdown-btn2:hover {
+    background-color: #346be6;
+}
+
+.user-dropdown-btn-div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+/*                                                       THIS IS SECTION 1 CSS                                  */
+
+.section1 {
+    background-color: #ffce32;
+    height: 200px;
+}
+
+.section1-main-div {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.home {
+    font-size: 12px;
+    color: #002f34;
+    text-decoration: none;
+}
+
+.motor {
+    font-weight: 700;
+}
+
+.right-aerow {
+    color: #002f34;
+    font-size: 10px;
+}
+
+.section1-top-link {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px 0px;
+}
+
+.section1-btn1 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    width: 160px;
+    height: 42px;
+    border-radius: 20px;
+    background-color: #002f34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.section1-btn-div {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    background-color: #ffe07f;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.button2:hover {
+    background-color: #002f34;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.button3 {
+    width: 200px;
+}
+
+.section1-div3 {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .16);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.section1-div3-heading {
+    font-size: 28px;
+    color: #002f34;
+    margin-top: 0px;
+}
+
+.cars-search {
+    width: 290px;
+    height: 45px;
+    padding: 0px 40px;
+    border: 1px solid #f1f1f1;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.cars-search::placeholder {
+    color: #617a7d;
+}
+
+.cars-search:focus {
+    border: 1px solid #f1f1f1;
+    outline: none;
+    box-shadow: none;
+}
+
+.cars-search-div {
+    position: relative;
+}
+
+.cars-search-icon {
+    color: #617a7d;
+    font-size: 15px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+.div3-input-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location-input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0px 40px;
+
+}
+
+.location-input:focus {
+    border: 1px solid #f1f1f1;
+    outline: none;
+    box-shadow: none;
+}
+
+.location-input-div {
+    width: 290px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.location-input-icon {
+    color: #617a7d;
+    font-size: 15px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+
+.location-input-down-icon {
+    color: #617a7d;
+    font-size: 12px;
+    position: absolute;
+    top: 19px;
+    right: 13px;
+}
+
+.price-input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0px 40px;
+}
+
+.price-input-div {
+    width: 290px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.price-input:focus {
+    border: 1px solid #f1f1f1;
+    outline: none;
+    box-shadow: none;
+}
+
+.price-input-down-icon {
+    color: #617a7d;
+    font-size: 12px;
+    position: absolute;
+    top: 19px;
+    right: 13px;
+}
+
+.price-tag-icon {
+    color: #617a7d;
+    font-size: 16px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    rotate: 90deg;
+}
+
+.search-btn {
+    width: 165px;
+    height: 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #002f34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.search-btn-icon {
+    font-size: 15px;
+}
+
+/*                                              THIS IS CAR SEARCH DROPDOWN CSS                                */
+
+.cars-search-dropdown-data {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.639);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    display: none;
+}
+
+.cars-search-dropdown-menu {
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    margin-top: 100px;
+}
+
+.cars-search-menu-top {
+    background-color: #f8fbff;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cars-search-menu-top-text {
+    color: #658285;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.top-text-dot {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin: 0px 8px;
+    background-color: #658285;
+}
+
+.top-text-first-letter {
+    color: #3a77ff;
+}
+
+.x-icon {
+    color: #002f34;
+    font-size: 20px;
+}
+
+.cars-search-dropdown:has(.cars-search:active) .cars-search-dropdown-data,
+.cars-search-dropdown:has(.cars-search:focus) .cars-search-dropdown-data {
+    display: block;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+body:has(.cars-search:focus) {
+    overflow: hidden;
+}
+
+.cars-search-menu-body {
+    padding: 12px 16px;
+}
+
+.cars-search2 {
+    width: 320px;
+}
+
+.cars-search-dropdown:has(.for-car-search:active) .cars-search-dropdown-data {
+    display: none;
+}
+
+.cars-search-brands-div {
+    margin-top: 25px;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.cars-search-brands-div::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+.cars-search-brands-div::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.cars-search-brands-div::-webkit-scrollbar-thumb {
+    background-color: #ccd5d6;
+    border-radius: 10px;
+}
+
+.brands-div-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #002f34;
+    padding: 12px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.brands-div-link:hover {
+    border: 1px solid #346be6;
+    padding: 11px 7px;
+}
+
+.brands-div-link:hover #brands-div-right-icon {
+    display: block;
+}
+
+#brands-div-right-icon {
+    color: #346be6;
+    display: none;
+}
+
+/*                                              THIS IS LOCATION INPUT DROPDOWN CSS                            */
+
+.location-input-dropdown-data {
+    background-color: white;
+    height: 300px;
+    width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+    position: absolute;
+    top: 54px;
+    display: none;
+}
+
+.location-input-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.location-input-dropdown-links {
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.input-dropdown-link {
+    display: block;
+    color: #658285;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.input-dropdown-link:hover {
+    color: #346be6;
+}
+
+.location-input-dropdown:has(.location-input:focus) .location-input-dropdown-data {
+    display: block;
+}
+
+/*                                              THIS IS PRICE INPUT DROPDOWN CSS                              */
+
+.price-input-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.price-input-dropdown-data {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+    position: absolute;
+    top: 54px;
+    display: none;
+}
+
+.price-dropdown-data-heading {
+    font-size: 16px;
+    color: #5c7a7d;
+    margin-bottom: 8px;
+}
+
+.price-icon {
+    rotate: 90deg;
+    color: #617a7d;
+    font-size: 16px;
+}
+
+.price-input2-div1 {
+    width: 110px;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price-input2-div1-input {
+    width: 70px;
+    height: 40px;
+    border: none;
+}
+
+.price-input2-div1-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.to {
+    font-size: 14px;
+    color: #002f34;
+}
+
+.price-input2-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-range-text {
+    font-size: 14px;
+    color: #5c7a7d;
+}
+
+.price-range-text-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.price-range-slider-circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #002f34;
+    background-color: white;
+}
+
+.price-range-slider-center {
+    width: 220px;
+    height: 3px;
+    background-color: #002f34;
+}
+
+.price-range-slider-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-input-dropdown:has(.price-input:active) .price-input-dropdown-data {
+    display: block;
+}
+
+.price-input-dropdown:has(.price-input:focus) .price-input-dropdown-data {
+    display: block;
+}
+
+.price-input-dropdown:has(.price-input2-div1-input:focus) .price-input-dropdown-data {
+    display: block;
+}
+
+.price-input-dropdown-data:hover {
+    display: block;
+}
+
+
+/*                                           THIS IS SECTION 3 CSS                                              */
+
+.section2-main-div {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.section-heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: #002f34;
+    margin-bottom: 30px;
+}
+
+.section2-card1-icon-div {
+    background-color: rgb(255, 252, 234);
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-card1 {
+    text-decoration: none;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.section2-card1-heading {
+    font-size: 18px;
+    color: #002f34;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.section2-card1-para {
+    color: #5c7a7d;
+    font-size: 16px;
+}
+
+.section2-card1:hover .section2-card1-icon {
+    scale: 1.1;
+    transition: all .3s ease-in-out;
+}
+
+.section2-card1:hover .section2-card1-heading {
+    color: #346be6;
+    transition: all .3s ease-in-out;
+}
+
+.section2-card1-icon {
+    transition: all .3s ease-in-out;
+}
+
+.section2-card2-icon-div {
+    background-color: rgb(242 251 255);
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-card3-icon-div {
+    background-color: rgb(254 248 248);
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2-card4-icon-div {
+    background-color: rgb(247 247 247);
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-cards-main-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+/*                                                  THIS IS SECTION 3 CSS                                    */
+
+.section3-main-div {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section3-tabs {
+    color: #5c7a7d;
+    font-size: 16px;
+    font-weight: 700;
+    height: 38px;
+    padding: 0px 16px;
+}
+
+.section3-tab-div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+}
+
+
+/*                                                    THIS IS TABS CSS                                         */
+
+#tab1-on,
+#tab2-on,
+#tab3-on,
+#tab4-on {
+    display: none;
+}
+
+.tab1:has(#tab1-on:checked) {
+    color: #346be6;
+    border-bottom: 3px solid #346be6;
+    height: 35px;
+}
+
+.tab2:has(#tab2-on:checked) {
+    color: #346be6;
+    border-bottom: 3px solid #346be6;
+    height: 35px;
+}
+
+.tab3:has(#tab3-on:checked) {
+    color: #346be6;
+    border-bottom: 3px solid #346be6;
+    height: 35px;
+}
+
+.tab4:has(#tab4-on:checked) {
+    color: #346be6;
+    border-bottom: 3px solid #346be6;
+    height: 35px;
+}
+
+.tab-box1 {
+    width: 175px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    transition: all .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-box1:hover {
+    border: 1px solid #346be6;
+    transition: all .3s ease-in-out;
+}
+
+.tab-box1-brand-img {
+    width: 35px;
+    height: 35px;
+}
+
+.toyota-img {
+    width: 100%;
+    height: 100%;
+}
+
+.tab-box1-brand-heading {
+    font-size: 16px;
+    color: #002f34;
+    font-weight: 600;
+}
+
+.tab-box1-brand {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.section3-main-div:has(#tab2-on:checked) .tab-box1-brand {
+    display: none;
+}
+
+.tab-box1-model {
+    display: none;
+}
+
+.section3-main-div:has(#tab2-on:checked) .tab-box1-model {
+    display: block;
+}
+
+.tab-box1-city {
+    display: none;
+}
+
+.section3-main-div:has(#tab3-on:checked) .tab-box1-city {
+    display: block;
+}
+
+.section3-main-div:has(#tab3-on:checked) .tab-box1-brand {
+    display: none;
+}
+
+.section3-main-div:has(#tab4-on:checked) .tab-box1-price {
+    display: block;
+}
+
+.section3-main-div:has(#tab4-on:checked) .tab-box1-brand {
+    display: none;
+}
+
+.tab-box1-price {
+    display: none;
+}
+
+.tab-box-div1 {
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.tab-box-div2 {
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 15px;
+    margin-top: 20px;
+}
+
+.tab-box1-main-div {
+    transition: all .8s cubic-bezier(0.65, 0.05, 0.36, 1);
+    position: relative;
+}
+
+.tab-box2-main-div {
+    transition: all .8s cubic-bezier(0.65, 0.05, 0.36, 1);
+    position: relative;
+}
+
+.tab-boxes-main-div {
+    display: flex;
+    align-items: center;
+}
+
+.slider-button1,
+.slider-button2 {
+    width: 20px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #ebeeef;
+}
+
+
+#slider-button1-on,
+#slider-button2-on {
+    display: none;
+}
+
+.slider-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 20px 0px;
+}
+
+.section3-main-div:has(#slider-button1-on:checked) .slider-button1 {
+    background-color: #346be6;
+}
+
+.section3-main-div:has(#slider-button2-on:checked) .slider-button2 {
+    background-color: #346be6;
+}
+
+.section3-main-div:has(#slider-button2-on:checked) .tab-box2-main-div {
+    transform: translateX(-100%);
+    transition: all .8s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.section3-main-div:has(#slider-button2-on:checked) .tab-box1-main-div {
+    transform: translateX(-100%);
+    transition: all .8s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.tab-box1-aerow-icon {
+    color: #346be6;
+    font-size: 20px;
+}
+
+.tab-box1-aerow-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #ebeeef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 38px;
+    right: 0px;
+}
+
+.tab-box1-aerow-div:hover {
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, .16);
+}
+
+.tab-box2-aerow-div:hover {
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, .16);
+}
+
+.tab-box2-aerow-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #ebeeef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    rotate: -180deg;
+}
+
+/*                                                   THIS IS SECTION 4 CSS                                    */
+
+.section4 {
+    background-color: #f8f9f9;
+    padding: 45px 0px;
+}
+
+.section4-main-div {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.child-part1-img-div {
+    width: 250px;
+    height: 150px;
+}
+
+.child-part1-img {
+    width: 100%;
+    height: 100%;
+}
+
+.child-part1-text-div-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #002f34;
+    margin-bottom: 20px;
+}
+
+.part1-para-icon-div {
+    background-color: #346be6;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para-check-icon {
+    color: white;
+    font-size: 13px;
+}
+
+.child-part1-text-div-para {
+    color: #5c7a7d;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-bottom: 15px;
+}
+
+.section4-child-div-part1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.child-part1-text-div-button {
+    width: 225px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #002f34;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.child-part1-text-div-button:hover {
+    background-color: #002a2f;
+    transition: all .3s ease-in-out;
+}
+
+.section4-child-div-center {
+    background-color: #eaeaea;
+    width: 1px;
+    height: 200px;
+    margin: 0px 20px;
+}
+
+.section4-main-div-child {
+    display: flex;
+    align-items: center;
+
+}
+
+.part2-para-icon-div {
+    background-color: #ffce32;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-part2-text-div-button {
+    width: 225px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #ffce32;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.child-part2-text-div-button:hover {
+    background-color: #e7bb2c;
+    transition: all .3s ease-in-out;
+}
+
+/*                                                  THIS IS SECTION 5 CSS                                    */
+
+.section5-main-div {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.section5-card1-link {
+    text-decoration: none;
+}
+
+.section5-card1 {
+    width: 210px;
+    height: 280px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section5-card1-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.section5-card1-img-div {
+    width: 210px;
+    height: 160px;
+    position: relative;
+}
+
+.section5-card1-img-label {
+    width: 85px;
+    height: 25px;
+    background-color: #e7bb2c;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.section5-card1-text-div {
+    padding: 14px;
+}
+
+.section5-card1-text-div {
+    color: #5c7a7d;
+    font-size: 14px;
+
+}
+
+.product-price {
+    font-size: 16px;
+    color: #002a2f;
+    font-weight: 600;
+    padding: 8px 0px;
+}
+
+.product-quality {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+
+.product-location-div {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section5-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view {
+    font-size: 14px;
+    color: #346be6;
+    text-decoration: none;
+}
+
+.section5-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.section5-heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: #002f34;
+}
+
+/*                                                      THIS IS SECTION 6 CSS                                 */
+
+.section6-main-div {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.section6-card1 {
+    width: 170px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section6-card1-link {
+    text-decoration: none;
+}
+
+.section6-card1-img-div {
+    width: 70px;
+    height: 80px;
+}
+
+.section6-card1-img {
+    width: 100%;
+    height: 100%;
+}
+
+.section6-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*                                                  THIS IS SECTION 7 CSS                                      */
+
+.section7-main-div {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section7-card1-img-div {
+    width: 360px;
+    height: 290px;
+    background-color: #f7f8f9;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.section7-card1-img {
+    width: 100%;
+    height: 200;
+}
+
+.section7-card1-text-heading {
+    font-size: 17px;
+    font-weight: 600;
+    color: #002f34;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 3;
+    transition: all .3 ease-in-out;
+}
+
+.section7-card1-link {
+    text-decoration: none;
+}
+
+.section7-card1 {
+    width: 360px;
+}
+
+.section7-card1-text-div {
+    width: 360px;
+}
+
+.section7-card1-text-para {
+    color: #5c7a7d;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+}
+
+.calendar-icon {
+    color: #5c7a7d;
+    font-size: 14px;
+}
+
+.section7-card1-text-div-date {
+    color: #5c7a7d;
+    font-size: 14px;
+    line-height: 3;
+}
+
+.section7-card1:hover .section7-card1-text-heading {
+    color: #346be6;
+    transition: all .3 ease-in-out;
+}
+
+.section7-cards-main-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section7-card2-img-div {
+    width: 360px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #f7f8f9;
+    border: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section7-card2-img {
+    height: 100%;
+}
+
+.section7-card2 {
+    width: 360px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+}
+
+.section7-card2:hover .section7-card1-text-heading {
+    color: #346be6;
+}
+
+.section7-card3 {
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section7-card3-img-div {
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    background-color: #f7f8f9;
+    border: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+}
+
+.section7-card3-img {
+    width: 100%;
+    height: 100px;
+}
+
+.section7-card3-text {
+    width: 220px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.section7-last-card-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.section7-card3:hover .section7-card1-text-heading {
+    color: #346be6;
+}
+
+/*                                                     THIS IS SECTION 8 CSS                                */
+
+.section8-main-div {
+    width: 1140px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+.section8-links {
+    text-decoration: none;
+    font-size: 15px;
+    color: #5c7a7d;
+    display: block;
+    padding: 10px 0px;
+    transition: all .3s ease-in-out;
+}
+
+.section8-links:hover {
+    color: #346be6;
+    transition: all .3s ease-in-out;
+}
+
+.section8-link-div {
+    width: 25%;
+}
+
+.section8-link-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.section8-text-div-heading {
+    font-weight: 600;
+    font-size: 16px;
+    color: #002f34;
+    margin-top: 30px;
+}
+
+.section8-text-div-para {
+    color: #5c7a7d;
+    font-size: 14px;
+}
+
+/*                                                   THIS IS FOOTER CSS                                      */
+
+.footer-part1 {
+    background-color: #f8f9f9;
+    background-image: url("/assets/img/footer-part1-bg-img.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+.footer-part1-child1{
+    width: 50%;
+}
+.footer-part1-main-div{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-part1-child1-heading{
+    font-size: 32px;
+    color: #002f34;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-part1-child1-para{
+    color: #5c7a7d;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.footer-part1-child1-mobile-app-img{
+    width: 140px;
+    height: 40px;
+}
+.footer-part1-child1-mobile-app-link{
+    text-decoration: none;
+}
+.footer-part1-child1-mobile-app{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 20px;
+}
+.qr-code-img{
+    width: 85px;
+    height: 85px;
+}
+.footer-part1-child1{
+    padding: 40px 0px;
+}
+.footer-part1-child1-qr-div{
+    width: 470px;
+    color: #5c7a7d;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 10px;
+}
+.footer-part1-child2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-part2{
+    background-color: #002f34;
+    color: white;
+    padding: 50px;
+}
+.footer-part2-main-div{
+   width: 1140px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+
+.footer-part2-child1-logo{
+    margin-bottom: 20px;
+}
+
+.footer-part2-child-heading{
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.footer-part2-child1-para{
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-part2-child1{
+    width: 20%;
+}
+.footer-part2-child1-page-link{
+    text-decoration: none;
+}
+.footer-part2-child1-page-link-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-part2-child2-link{
+    color: white;
+    display: block;
+    padding: 5px 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer-part2-child2-link:hover{
+    text-decoration: underline;
+}
+.footer-part2-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#ffce32;
+    color: #002f34;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.footer-part2-button:hover{
+    background-color: #e7bb2c;
+}
+.top-icon{
+    margin-left: 5px;
+    font-size: 16px;
+}

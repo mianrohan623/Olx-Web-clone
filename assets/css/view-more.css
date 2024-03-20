@@ -1,0 +1,485 @@
+/*                                                THIS IS SECTION 1 CSS                                   */
+
+main {
+    padding-top: 126px;
+}
+
+.section1-top-main {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    padding: 12px;
+}
+
+.section1-top1 {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.all {
+    color: #002f34;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-right: 10px;
+}
+
+.all-down {
+    font-size: 24px;
+    color: black;
+    transition: all .3s;
+}
+
+.products-links {
+    color: #002f34;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.products-links:hover {
+    color: #11a3b4;
+}
+
+/*                                                 THIS IS ALL ITEMS DROP DOWN CSS                            */
+
+.all-items-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.all-items-dropdown-data {
+    width: 1248px;
+    padding: 16px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    background: white;
+    position: absolute;
+    z-index: 10;
+    top: 29px;
+    display: none;
+}
+
+.drop-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#clicked {
+    display: none;
+}
+
+#clicked:checked+.all-items-dropdown-data {
+    display: block;
+}
+
+.all-items-dropdown:has(#clicked:checked) .all-down {
+    rotate: 180deg;
+    transition: all .3s;
+}
+
+.products-h {
+    color: #002f34;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+}
+
+.links2 {
+    display: block;
+    padding: 5px 0px;
+
+}
+
+.products-h:hover {
+    color: #11a3b4;
+}
+
+.mobiles {
+    margin-bottom: 16px;
+    padding: 0px 8px;
+}
+
+.section1-div2 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.page-links {
+    color: rgba(0, 47, 52, .64);
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.home-link {
+    color: rgba(0, 47, 52, .64);
+    text-decoration: none;
+}
+
+.mobile-h {
+    font-weight: 700;
+    font-size: 24px;
+    color: #002f34;
+    margin-bottom: 20px;
+}
+
+/*                                            THIS IS MOBILES ADD CSS                                        */
+
+.adds-left-div {
+    width: 300px;
+}
+
+.left-div-h {
+    font-weight: 700;
+    font-size: 16px;
+    color: #002f34;
+    padding: 7px 16px 16px 16px;
+    border-bottom: 1px solid rgba(0, 47, 52, .36);
+}
+
+.add-categories-h {
+    font-weight: 700;
+    font-size: 16px;
+    color: #002f34;
+    margin-bottom: 16px;
+}
+
+.add-categories {
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 47, 52, .36);
+}
+
+.all-categories-link {
+    color: rgba(0, 47, 52, .64);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.all-categories-link:hover {
+    color: #002f34;
+}
+
+.mobiles-link {
+    display: block;
+    margin: 16px 0px;
+    padding-left: 16px;
+}
+
+.all-categories-list {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.mobile-span {
+    color: #002f34;
+    font-weight: 700;
+}
+
+.location-div2 {
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.location-dropdown2:has(.location-input:focus) .location-div2 {
+    border: 1px solid #21dbd1;
+    margin-left: 0px;
+}
+
+.location-dropdown2 {
+    position: relative;
+}
+
+.location-dropdown-data2 {
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+
+.pak-link {
+    color: #002f34;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+
+.view-btn {
+    color: #3a77ff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.price {
+    font-size: 16px;
+    color: #002f34;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+
+.range-input {
+    width: 116px;
+    height: 39px;
+    background-color: #f7f8f8;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    border: none;
+    border-bottom: 1px solid #002f34;
+}
+
+.range-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #21dbd1;
+}
+
+.label-p {
+    color: #194448;
+    font-size: 12px;
+}
+
+.range-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-div {
+    width: 272px;
+    height: 6px;
+    background-color: #002f34;
+}
+
+.circle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #002f34;
+    background-color: white;
+    position: relative;
+    top: 17px;
+    left: -12px;
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #002f34;
+    background-color: white;
+    position: relative;
+    top: -13px;
+    right: -255px;
+}
+
+.brand-link {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.click-div {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.click {
+    width: 24px;
+    height: 24px;
+    accent-color: #002f34;
+}
+
+.start-selling {
+    text-decoration: none;
+}
+
+.start-selling-div {
+    padding: 25px;
+    background-color: #3a77ff;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+.start-selling-h {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.start-selling-btn {
+    width: 254px;
+    height: 48px;
+    background-color: #3a77ff;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.mobiles-adds {
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+}
+
+/*                                                 this  is right div css                                     */
+
+.adds-right-div {
+    width: 970px;
+}
+
+.add-right-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 5px 16px;
+    border-bottom: 1px solid rgba(0, 47, 52, .36);
+}
+
+.add-numb {
+    width: 90px;
+    height: 25px;
+    background-color: #c8f8f6;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #002f34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view {
+    font-size: 14px;
+    font-weight: 700;
+    color: #002f34;
+}
+
+.bars-icon-link {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #c8f8f6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.bars-icon-link:hover {
+    background-color: #22ebe4;
+    transition: all .3s ease-in-out;
+}
+
+.bars-icon {
+    color: #002f34;
+}
+
+.add-top-bar {
+    display: flex;
+    align-items: center;
+}
+
+.span-btw {
+    width: 1px;
+    height: 36px;
+    background-color: rgb(215, 215, 215);
+    margin: 0px 10px 0px 10px;
+}
+
+/*                                             THIS IS SORT DROPDOWN                                    */
+
+.sort-flex {
+    display: flex;
+    align-items: center;
+}
+
+.sort-down-icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new {
+    font-size: 14px;
+    color: #002f34;
+    margin: 0px 10px 0px 5px;
+}
+
+.sort-down-icon {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.on-click {
+    display: none;
+}
+.on-click:checked + .sort-dropdown-data {
+    display: block;
+}
+.sort-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.sort-dropdown:has(.on-click:checked) .sort-down-icon {
+    rotate: 180deg;
+    transition: all .3s ease-in-out;
+}
+
+.sort-dropdown-data {
+    width: 220px;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    position: absolute;
+    top: 25px;
+    left: -43px;
+    display: none;
+}
+
+
+
+.sort-down-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #002f34;
+    padding: 15px;
+    position: relative;
+}
+
+.sort-down-link:hover {
+    background-color: #c8f8f6;
+}
+
+.sort-down-link:hover #check-icon {
+    display: block;
+}
+
+#check-icon {
+    display: none;
+    position: absolute;
+}
+
+.link-text {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.card-div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    row-gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

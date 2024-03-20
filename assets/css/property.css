@@ -1,0 +1,1325 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+/*                                                THIS IS HEADER CSS                              */
+
+.olx-logo1 {
+    width: 34px;
+    height: 20px;
+    fill: #002f34;
+
+}
+
+.car-icon {
+    font-size: 15px;
+}
+
+.olx-logo1-link {
+    text-decoration: none;
+
+}
+
+.olx-logo1:hover {
+    fill: #3a77ff;
+}
+
+.car-icon-link {
+    text-decoration: none;
+    color: #080909;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.property-icon-link {
+    text-decoration: none;
+    color: #3a77ff;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.car-icon-div {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 8px -2px #cfcfcf54 inset;
+}
+
+.car-icon-link:hover {
+    color: #3a77ff;
+}
+
+.car-icon-h {
+    font-size: 12px;
+}
+
+.header-div1 {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-main1-div {
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.header-main2-div1 {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-main2-div {
+    padding: 13px 0px;
+    background-color: #f7f8f9;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.olx-logo2-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.olx-logo2 {
+    height: 48px;
+    width: 50px;
+    fill: #002f34;
+
+}
+
+.olx-logo2-heading {
+    font-size: 19px;
+    font-weight: 700;
+    color: #002f34;
+}
+
+.link-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+}
+
+.main2-div1-links {
+    text-decoration: none;
+    font-size: 16px;
+    color: #2c5357;
+    margin-right: 32px;
+}
+
+.used-cars-aerow-icon {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+.used-cars-link {
+    margin-right: 32px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*                                                THIS IS USED CARS DROPDOWN                                 */
+
+.used-car-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.used-car-dropdown-data {
+    width: 300px;
+    background-color: white;
+    padding: 24px 0px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    position: absolute;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.used-car-dropdown-links {
+    text-decoration: none;
+    display: block;
+    color: #1f484d;
+    padding: 10px 20px;
+}
+
+.used-car-dropdown-links:hover {
+    background-color: #c8f8f6;
+}
+
+.used-car-dropdown:has(.used-car-dropdown-data:hover) .used-cars-link {
+    color: #002f34;
+}
+
+.used-car-dropdown:hover .used-car-dropdown-data {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+
+.user-img-div {
+    width: 35px;
+    height: 35px;
+}
+
+.user-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.link-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-down-aerow {
+    font-size: 18px;
+    color: #002f34;
+}
+
+.sell-link {
+    text-decoration: none;
+    position: relative;
+    margin-left: 12px;
+}
+
+.sell-text {
+    width: 104px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #002f34;
+}
+
+.plus {
+    font-size: 16px;
+}
+
+.main2-div2 {
+    display: flex;
+    align-items: center;
+}
+
+/*                                            THIS IS USER DROPDOWN CSS                                         */
+
+.user-dropdown-data {
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    position: absolute;
+    top: 36px;
+    right: 0px;
+    display: none;
+    transition: all .5 ease-in-out;
+}
+
+.user-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.user-dropdown:hover .user-dropdown-data {
+    display: block;
+    transition: all .5 ease-in-out;
+}
+
+.user-dropdown-data-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #002f34;
+}
+
+.user-dropdown-btn1 {
+    width: 125px;
+    height: 40px;
+    background-color: #dfe3e8;
+    border-radius: 5px;
+    color: #002f34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-dropdown-btn1:hover {
+    background-color: #ced0d4;
+}
+
+.user-dropdown-btn2 {
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+    color: white;
+    background-color: #477ae7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-dropdown-btn2:hover {
+    background-color: #346be6;
+}
+
+.user-dropdown-btn-div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+/*                                                 THIS IS SECTION 1 CSS                                     */
+
+.section1 {
+    background-color: #e4efff;
+    background-image: url('/assets/img/section1-banner-bg-img.svg'), url('/assets/img/section1-banner-bg-circle-img.svg');
+    background-position: 0 100%, 100% 0;
+    background-repeat: repeat-x, no-repeat;
+    padding: 20px 0px;
+}
+
+.section1-main-div {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.section1-main-part1 {
+    width: 340px;
+    background-color: white;
+    padding: 25px 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    border-radius: 5px;
+}
+
+.section1-main-part1-heading {
+    font-size: 26px;
+    font-weight: 600;
+    color: #002f34;
+    margin-bottom: 15px;
+}
+
+.slider-button-div {
+    width: 125px;
+    height: 35px;
+    background-color: #e1ebfd;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #61797d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#slide {
+    display: none;
+}
+
+.slider-thumb {
+    width: 70px;
+    height: 35px;
+    background-color: #c7dbff;
+    border-radius: 20px;
+    position: absolute;
+    left: 0px;
+    transition: all .4s ease-in-out;
+}
+
+.section1-main-part1:has(#slide:checked) .slider-thumb {
+    transform: translateX(80%);
+    transition: all .4s ease-in-out;
+}
+
+.slider-button-text {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.section1-main-part1:has(#slide:checked) .slider-button-text2 {
+    color: #002f34;
+    transition: all .4s ease-in-out;
+}
+
+.section1-main-part1:has(#slide:not(:checked)) .slider-button-text1 {
+    color: #002f34;
+    transition: all .4s ease-in-out;
+}
+
+.slider-button-label {
+    display: inline-block;
+}
+
+/*                                   THIS IS SECTION 1 PART 1 PROPERTY INPUT & DROPDOWN CSS                     */
+
+.section1-part1-property-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #002f34;
+    padding: 0px 20px 0px 35px;
+    font-size: 14px;
+}
+
+.section1-part1-property-input:focus {
+    border: 1px solid #002f34;
+    outline: none;
+    box-shadow: none;
+}
+
+.section1-part1-property-input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 42px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.property-input-icon {
+    color: rgb(26 68 73);
+    font-size: 16px;
+    position: absolute;
+    left: 14px;
+}
+
+.property-input-down-icon {
+    color: rgb(26 68 73);
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+}
+
+.section1-part1-property-input-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.section1-part1-property-input-dropdown-data {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    width: 310px;
+    position: absolute;
+    top: 50px;
+    z-index: 4;
+    display: none;
+}
+
+.section1-part1-property-input-dropdown-links {
+    display: block;
+    text-decoration: none;
+    color: rgb(26 68 73);
+    font-size: 15px;
+    padding: 8px 0px;
+}
+
+.section1-part1-property-input-dropdown-links:hover {
+    color: #346be6;
+}
+
+.section1-part1-property-input-dropdown:has(.section1-part1-property-input:focus) .section1-part1-property-input-dropdown-data {
+    display: block;
+}
+
+.section1-part1-property-input-dropdown-data:hover {
+    display: block;
+}
+
+/*                                 THIS IS AREA LOCATION INPUT DIV AND DROPDOWN CSS                            */
+
+.section1-part1-area-location-input-div {
+    width: 340px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #002f34;
+    display: flex;
+    align-items: center;
+}
+
+.section1-part1-colony-input-div {
+    width: 180px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.section1-part1-colony-input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px 0px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.section1-part1-colony-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.section1-part1-area-location-input-center-div {
+    width: 1px;
+    height: 20px;
+    background-color: #ebebeb;
+    margin: 0px 4px;
+}
+
+.colony-input-serach-icon {
+    color: #002f34;
+    font-size: 13px;
+    position: absolute;
+    left: 9px;
+    top: 15px;
+}
+
+.section1-part1-city-input-div {
+    width: 140px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section1-part1-city-input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px 0px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.section1-part1-city-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.city-input-icon {
+    color: #002f34;
+    font-size: 13px;
+    position: absolute;
+    left: 9px;
+    top: 15px;
+}
+
+.city-input-down-icon {
+    color: rgb(26 68 73);
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+}
+
+.section1-part1-area-location-input-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.section1-part1-area-location-input-dropdown-data {
+    width: 310px;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 15px;
+    border: 1px solid #ebebeb;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    display: none;
+}
+
+.section1-part1-area-location-input-dropdown-link:hover {
+    color: #346be6;
+}
+
+.section1-part1-area-location-input-dropdown-link {
+    display: none;
+    text-decoration: none;
+    color: rgb(26 68 73);
+    font-size: 15px;
+    padding: 8px 0px;
+}
+
+.section1-part1-city-location-input-dropdown-link {
+    display: none;
+    text-decoration: none;
+    color: rgb(26 68 73);
+    font-size: 15px;
+    padding: 8px 0px;
+}
+
+.section1-part1-city-location-input-dropdown-link:hover {
+    color: #346be6;
+}
+
+.section1-part1-area-location-input-dropdown-link-div {
+    display: block;
+}
+
+.section1-main-part1:has(.section1-part1-colony-input:focus) .section1-part1-area-location-input-dropdown-link {
+    display: block;
+}
+
+.section1-main-part1:has(.section1-part1-city-input:focus) .section1-part1-city-location-input-dropdown-link {
+    display: block;
+}
+
+.section1-main-part1:has(.section1-part1-colony-input:focus) .section1-part1-area-location-input-dropdown-data {
+    display: block;
+}
+
+.section1-main-part1:has(.section1-part1-city-input:focus) .section1-part1-area-location-input-dropdown-data {
+    display: block;
+}
+
+/*                                   THIS IS AREA MEASURMENT DIV AND DROPDOWN CSS                              */
+
+.area-measurment-div {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0px 10px 0px;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #61797d;
+    width: 340px;
+}
+
+.area-measurment-heading2 {
+    color: #002f34;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #002f34;
+}
+
+.area-measurment-down-aerow {
+    font-size: 10px;
+    border: none;
+    margin-left: 6px;
+    color: #002f34;
+}
+
+.area-measurment-heading2-div {
+    display: flex;
+    align-items: center;
+}
+
+.area-measurment-heading2-dropdown-data-link {
+    display: block;
+    text-decoration: none;
+    color: #2c5357;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.area-measurment-heading2-dropdown-data-link:hover {
+    color: #346be6;
+}
+
+.area-measurment-heading2-dropdown-data {
+    border: 1px solid #ebebeb;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    display: none;
+}
+
+.area-measurment-heading2-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.area-measurment-heading2-dropdown:has(#down-menu:checked) .area-measurment-heading2-dropdown-data {
+    display: block;
+}
+
+#down-menu {
+    display: none;
+}
+
+.area-measurment-heading2-dropdown:has(#down-menu:checked) .area-measurment-heading2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20px;
+    color: #bebebe;
+    border: none;
+}
+
+.area-measurment-input-div {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #002f34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-measurment-input {
+    width: 120px;
+    height: 38px;
+    border: none;
+}
+
+.area-measurment-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.area-measurment-input-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+}
+
+.area-measurment-slider-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #002f34;
+    background-color: white;
+}
+
+.area-measurment-slider-center {
+    width: 300px;
+    height: 2px;
+    background-color: #002f34;
+
+}
+
+.area-measurment-slider-div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.section1-part1-button {
+    width: 340px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #346be6;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.section1-part1-button-icon {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/*                                             THIS IS SECTION MAIN DIV PART 2 CSS                              */
+
+.section1-main-part2 {
+    width: 700px;
+    height: 400px;
+    padding: 25px 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.section1-part2-heading {
+    font-size: 20px;
+    color: #002f34;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section1-part2-tabs-div {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.section1-part2-tab-heading {
+    font-size: 16px;
+    padding: 0px 20px;
+}
+
+.section1-part2-tabs {
+    background-color: #f3f4f6;
+    color: #002f34;
+    width: fit-content;
+    height: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+
+.select-tabs {
+    display: none;
+}
+
+.section1-part2-tab1-div {
+    background-color: #002f34;
+    color: white;
+}
+
+.section1-part2-tab1-div:has(#select-tab1:checked) {
+    background-color: #002f34;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.section1-part2-tab2-div:has(#select-tab2:checked) {
+    background-color: #002f34;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.section1-part2-tab3-div:has(#select-tab3:checked) {
+    background-color: #002f34;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.section1-part2-tab4-div:has(#select-tab4:checked) {
+    background-color: #002f34;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.section1-part2-tab5-div:has(#select-tab5:checked) {
+    background-color: #002f34;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+
+
+.section1-part2-tabs-div:has(#select-tab2:checked) .section1-part2-tab1-div {
+    background-color: #f3f4f6;
+    color: #002f34;
+    transition: all .3s ease-in-out;
+}
+
+.section1-part2-tabs-div:has(#select-tab3:checked) .section1-part2-tab1-div {
+    background-color: #f3f4f6;
+    color: #002f34;
+    transition: all .3s ease-in-out;
+}
+
+.section1-part2-tabs-div:has(#select-tab4:checked) .section1-part2-tab1-div {
+    background-color: #f3f4f6;
+    color: #002f34;
+    transition: all .3s ease-in-out;
+}
+
+.section1-part2-tabs-div:has(#select-tab5:checked) .section1-part2-tab1-div {
+    background-color: #f3f4f6;
+    color: #002f34;
+    transition: all .3s ease-in-out;
+}
+
+/*                                         THIS IS SECTION 1 PART2 TABS BOX CSS                                */
+
+.box-heading {
+    font-size: 18px;
+    color: #002f34;
+    transition: all .3s ease-in-out;
+}
+
+.box-heading2-tab1 {
+    font-size: 14px;
+    color: #61797d;
+    margin-top: 10px;
+    text-align: center
+}
+
+.section1-part2-tabs-box-links {
+    text-decoration: none;
+}
+
+.section1-part2-tabs-box {
+    width: 130px;
+    height: 120px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-part2-tabs-box:hover {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+    transition: all .3s ease-in-out;
+}
+
+.box-heading-tab2 {
+    display: none;
+}
+
+.section1-main-part2:has(#select-tab1:checked) .box-heading-tab1 {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.section1-main-part2:has(#select-tab2:checked) .box-heading-tab2 {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.section1-main-part2:has(#select-tab2:checked) .box-heading-tab1 {
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.box-heading-tab3 {
+    display: none;
+}
+
+.section1-main-part2:has(#select-tab3:checked) .box-heading-tab3 {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.section1-main-part2:has(#select-tab3:checked) .section1-part2-tabs-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 80px;
+}
+
+.box-heading2-tab3 {
+    font-size: 16px;
+    margin: 0px;
+    color: #61797d;
+}
+
+.section1-main-part2:has(#select-tab3:checked) .box-heading-tab1 {
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.box-heading-tab4 {
+    display: none;
+}
+
+.section1-main-part2:has(#select-tab4:checked) .box-heading-tab4 {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.section1-main-part2:has(#select-tab4:checked) .box-heading-tab1 {
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.section1-main-part2:has(#select-tab4:checked) .section1-part2-tabs-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 80px;
+}
+
+.box-heading-tab5 {
+    display: none;
+}
+
+.section1-main-part2:has(#select-tab5:checked) .box-heading-tab5 {
+    display: block;
+    transition: all .3s ease-in-out;
+}
+
+.section1-main-part2:has(#select-tab5:checked) .box-heading-tab1 {
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.section1-main-part2:has(#select-tab5:checked) .section1-part2-tabs-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 80px;
+}
+
+.section1-part2-tabs-box-div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+/*                                                   THIS IS SECTION 2 CSS                                    */
+
+.section2-main-div {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 20px;
+    color: #002f34;
+    font-weight: 700;
+}
+
+.section-head-div {
+    margin: 30px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-link {
+    text-decoration: none;
+    color: #346be6;
+    font-size: 16px;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+.section2-card-link {
+    text-decoration: none;
+}
+
+.section2-card-img-div {
+    width: 220px;
+    height: 170px;
+}
+
+.section2-card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.section2-card-div {
+    height: 270px;
+    width: 220px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+
+.section2-card-div:hover {
+    box-shadow: 0px 2px 5px rgb(233, 233, 233);
+}
+
+.section2-card-text-div {
+    padding: 10px;
+    color: #61797d;
+}
+
+.section2-card-heading {
+    font-size: 18px;
+    color: #002f34;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section2-card-para {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+.section2-card-location-div {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2-card-location {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80px;
+}
+
+.section2-cards-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*                                                THIS IS SECTION 3 CSS                                     */
+
+.section3-main-div {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*                                                THIS IS SECTION 4 CSS                                      */
+
+.section4-main-div {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section4-card {
+    height: 120px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.section4-card-img-div {
+    width: 140px;
+    height: 120px;
+}
+
+.section4-card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.section4-card-link {
+    text-decoration: none;
+}
+
+.section4-cards-heading {
+    color: #002f34;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section4-cards-para {
+    color: #61797d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.section4-cards-date {
+    font-size: 14px;
+    color: #002f34;
+}
+
+.section4-card-text-div {
+    padding: 10px 0px;
+}
+
+.section4-card-main-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+/*                                                 THIS IS SECTION 5 CSS                                      */
+
+.section5-main-div{
+    width: 1140px;
+    margin: 0 auto;
+}
+.section5-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #002f34;
+    margin: 40px 0px 20px 0px;
+}
+.section5-links-icon{
+   rotate: 50deg;
+   margin-right: 10px;
+   transition: all .3s ease-in-out;
+}
+.section5-links:hover .section5-links-text{
+    text-decoration: underline;
+}
+.section5-links:hover .section5-links-icon{
+    transform: translateY(-20%);
+    transition: all .2s ease-in-out;
+}
+.section5-links{
+    text-decoration: none;
+    font-size: 14px;
+    color: #002f34;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.section5-links-text{
+    color: #61797d;
+}
+.section5-links-part1-div{
+    margin-bottom: 20px;
+}
+.section5-links-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.section5-text-heading{
+    font-size: 16px;
+    font-weight: 600;
+    color: #002f34;
+    margin-bottom: 15px;
+}
+.section5-text-para{
+    font-size: 14px;
+    color: #61797d;
+    margin-bottom: 30px;
+}
+
+ /*                                                THIS IS FOOTER CSS                                          */
+
+ 
+.footer-main2-div{
+    background-color: #ebeeef;
+    padding: 15px 0px 50px 0px;
+    border-top: 1px solid #bcc7c9;
+}
+.main2-div1{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second{
+    text-decoration: none;
+}
+
+.links-h{
+    font-size: 14px;
+    color: #002f34;
+    font-weight: 700;
+}
+.footer-list{
+    padding: 0px;
+}
+.footer-list-data{
+    list-style: none;
+
+}
+.footer-list-links{
+    text-decoration: none;
+    color: rgba(0,47,52,.64);
+    font-size: 12px;
+}
+
+.footer-links{
+    width: 20%;
+}
+
+.footer-list-links:hover{
+    color: #002f34;
+}
+
+.twitter-icon-link{
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #557477;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-icon-link:hover{
+    background-color: #557477;
+}
+
+.twitter-icon-link:hover .twitter-icon{
+    color: #ebeeef;
+}
+
+.twitter-icon{
+    color: #557477;
+    font-size: 12px;
+}
+
+.acconts-links-bar{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.second{
+    width: 80px;
+    height: 28px;
+}
+.second-app{
+    margin-top: 34px;
+}
+
+.footer-main3-div{
+    padding: 16px;
+    background-color: #002f34;
+}
+.main3-div1{
+  width: 1140px;
+  margin: 0 auto;
+}
+.main3-text{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    text-align: end;
+}
